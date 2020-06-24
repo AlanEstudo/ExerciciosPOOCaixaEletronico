@@ -4,11 +4,11 @@ public class CaixaEletronico {
     private int numeroSaques;
     private int numeroDeposito;
 
-    public int getQuantiaDinheiro() {
+    public int getSaldoCaixa() {
         return saldoCaixa;
     }
 
-    public void setQuantiaDinheiro(int quantiaDinheiro) {
+    public void setSaldoCaixa(int quantiaDinheiro) {
         this.saldoCaixa = quantiaDinheiro;
     }
 
